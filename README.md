@@ -6,7 +6,7 @@ compare with your own hours before AI?
 One TypeScript file, no install, Node 22.18+ or Bun. It reads `~/.claude/projects` and local git;
 nothing leaves your machine.
 
-Write-up with my numbers: [Agent Hours](https://claude.ai/artifact/GRLvJqGecZtPmngYUK4La9).
+Write-up with my numbers, and a scope-report viewer: [agent-hours.dested.com](https://agent-hours.dested.com).
 
 ## Run it
 
