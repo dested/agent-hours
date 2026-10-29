@@ -1,0 +1,16 @@
+{
+  "name": "agent-hours",
+  "private": true,
+  "description": "How many hours your Claude Code agents actually worked, what an hour bought, and how it compares with your own pre-AI hours.",
+  "license": "MIT",
+  "type": "module",
+  "bin": { "agent-hours": "agent-hours.mts" },
+  "scripts": {
+    "start": "node agent-hours.mts",
+    "typecheck": "tsc -p ."
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^7.0.2"
+  }
+}

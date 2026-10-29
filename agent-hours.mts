@@ -1,6 +1,6 @@
 #!/usr/bin/env node
 // agent-hours: how many hours your Claude Code agents actually worked, what an hour bought, and
-// how that compares with your own pre-AI commit history. https://github.com/dested (agent-hours)
+// how that compares with your own pre-AI commit history. https://github.com/dested/agent-hours
 //
 // Reads ~/.claude/projects (every session and subagent transcript) and local git. Nothing leaves
 // this machine. Runs on Node 22.18+ or Bun with no install:

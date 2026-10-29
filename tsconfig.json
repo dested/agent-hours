@@ -1,5 +1,15 @@
 {
-  "extends": "../tsconfig.json",
-  "compilerOptions": { "erasableSyntaxOnly": true, "verbatimModuleSyntax": true },
-  "include": ["."]
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "NodeNext",
+    "moduleResolution": "NodeNext",
+    "types": ["node"],
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "erasableSyntaxOnly": true,
+    "verbatimModuleSyntax": true,
+    "skipLibCheck": true,
+    "noEmit": true
+  },
+  "include": ["agent-hours.mts"]
 }
