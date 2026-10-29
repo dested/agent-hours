@@ -379,8 +379,9 @@ if (opt.repos) {
       console.error(`skipped ${repo}: not a git repo`);
       continue;
     }
-    repos++;
-    for (const [sha, s] of numstat(out, (e) => author.test(e))) if (!all.has(sha)) all.set(sha, s);
+    const mine = numstat(out, (e) => author.test(e));
+    if (mine.size) repos++;
+    for (const [sha, s] of mine) if (!all.has(sha)) all.set(sha, s);
   }
   const cs = [...all.values()];
   const keepers = cs.filter(typed);
